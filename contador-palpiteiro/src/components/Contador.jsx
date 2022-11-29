@@ -18,8 +18,11 @@ const ContadorPalpiteiro = () => {
       <p>{numero}</p>
       <button onClick={subtrairUm}>-</button>
       <br />
-      <Palpiteiro  />
+      <Palpiteiro
+        valor = {numero}
+      />
     </>
   );
+  
 };
 export default ContadorPalpiteiro;
